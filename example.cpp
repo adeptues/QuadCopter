@@ -1,13 +1,10 @@
-#include <boost/lambda/lambda.hpp>
 #include <iostream>
-#include <iterator>
-#include <algorithm>
-
+#include <boost/asio/serial_port.hpp>
+using namespace std;
 int main()
 {
-    using namespace boost::lambda;
-    typedef std::istream_iterator<int> in;
+	cout << "Thomas Helmkay 2013" << endl;
+	cout << "Listening for data from the arduino" << endl;
+	
 
-    std::for_each(
-        in(std::cin), in(), std::cout << (_1 * 3) << " " );
 }

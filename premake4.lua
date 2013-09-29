@@ -7,7 +7,9 @@ solution "QuadCopter"
       kind "ConsoleApp"
       language "C++"
       files { "*.h", "*.cpp" }
-      includedirs{"boost_1_54_0/"}
+      includedirs{"external/linux64/include"}
+      libdirs{"external/linux64/lib"}
+	links{"boost_system"}
       location "build"
  
       configuration "Debug"

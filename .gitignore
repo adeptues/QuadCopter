@@ -1,3 +1,7 @@
 build
 *~
-
+*.workspace.*
+*.tags
+*_wsk.mk
+QuadCopter
+QuadCopter*
