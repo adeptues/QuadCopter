@@ -5,5 +5,7 @@ build
 *_wsk.mk
 QuadCopter
 QuadCopter*
-MakeFile
 Makefile
+CMakeCache.txt
+CMakeFiles
+*.cmake
