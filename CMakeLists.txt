@@ -2,12 +2,15 @@
 # refer to the root source directory of the project as ${HELLO_SOURCE_DIR} and 
 # to the root binary directory of the project as ${HELLO_BINARY_DIR}. 
 cmake_minimum_required (VERSION 2.8) 
+#project name
 project (QUAD) 
+#source set
+SET(QUAD_SRCS Main.cpp LED.cpp GPIOClass.cpp)
 
-add_executable(QUAD example.cpp)
+add_executable(quad ${QUAD_SRCS})
 
 # Recurse into the "Hello" and "Demo" subdirectories. This does not actually 
 # cause another cmake executable to run. The same process will walk through 
 # the project's entire directory structure. 
-#add_subdirectory (Hello) 
+#add_subdirectory (Hello) o
 #add_subdirectory (Demo)

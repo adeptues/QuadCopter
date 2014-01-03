@@ -9,3 +9,4 @@ Makefile
 CMakeCache.txt
 CMakeFiles
 *.cmake
+quad
